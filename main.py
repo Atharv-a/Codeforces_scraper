@@ -1,7 +1,5 @@
-import time
 import os 
 import shutil
-from xml.etree.ElementPath import xpath_tokenizer
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
@@ -88,5 +86,4 @@ for i in range(2,number_of_contest+2):
 
 
 print("successfull execution")
-time.sleep(5000)
 driver.quit()
