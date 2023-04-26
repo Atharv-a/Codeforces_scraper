@@ -48,7 +48,7 @@ options=Options()
 options.headless=True
 driver = webdriver.Chrome(service=service,options=options)
 driver.get("https://codeforces.com/")
-contest_page_link=driver.find_element(by=By.XPATH,value='//*[@id="body"]/div[3]/div[5]/ul/li[4]/a')
+contest_page_link=driver.find_element(by=By.XPATH,value='//*[@id="body"]/div[3]/div/ul/li[4]/a')
 contest_page_link.send_keys(Keys.RETURN)
 print("Enter number of contest to be processed:")
 number_of_contest=int(input())
