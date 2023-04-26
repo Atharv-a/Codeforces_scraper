@@ -2,8 +2,12 @@
 - Buit a web scraper on chrome browser which extracts information about specified number of past contest and store it in directories using python and selenium.
 - For particular contest it creates a directory with contest number as name which contains directories for each question.
 - Inside question directory there is a screenshot of question statememt and two text file one for input data and other for output data.
+
 1822 is contest directory which stores data about the contest.
+
 ![Screenshot from 2023-04-26 14-48-37](https://user-images.githubusercontent.com/95877070/234533136-936b327d-21fd-4064-ad0e-3ad3698215c6.png)
+
+A to G1 repesent question directories.
 
 ![Screenshot from 2023-04-26 14-48-50](https://user-images.githubusercontent.com/95877070/234533204-6419846a-3727-4916-b498-b01517ef6022.png)
 
