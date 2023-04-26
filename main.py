@@ -1,3 +1,4 @@
+# Note xpaths may have been changed on site so may sure the xpaths are still valid.
 import os 
 import shutil
 from selenium import webdriver
